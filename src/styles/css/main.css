@@ -3,14 +3,26 @@
   --text-light: #F5EFE7;
 }
 
-.body--dark {
-  background-color: var(--body-black);
-  color: var(--text-light);
-}
-
 header {
   width: 100%;
   position: fixed;
   background-color: var(--text-light);
   color: var(--body-black);
+}
+
+.AboutMe {
+  width: 100%;
+}
+.AboutMe .AboutMePhoto img {
+  width: 500px;
+  height: 500px;
+  border-radius: 20px;
+}
+.AboutMe .AboutMeText {
+  width: 30%;
+  direction: rtl;
+}
+.body--dark {
+  background-color: var(--body-black);
+  color: var(--text-light);
 }

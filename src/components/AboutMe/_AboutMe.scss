@@ -1,0 +1,18 @@
+.AboutMe{
+    width: 100%;
+    .AboutMePhoto{
+       img{
+        width: 500px;
+        height: 500px; 
+        border-radius: 20px;
+    } 
+    }
+    .AboutMeText{
+        width: 30%;
+        direction: rtl;
+        &__p{
+            
+        }
+    }
+    
+}

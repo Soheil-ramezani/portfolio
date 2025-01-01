@@ -2,10 +2,15 @@
     --body-black: #151922;
     --text-light: #F5EFE7;
 }
+@import "../../components/Header/header";
+@import "../../components/AboutMe/AboutMe";
+
+
+
 
 .body--dark {
     background-color: var(--body-black);
     color: var(--text-light);
 }
 
-@import "../../components/Header/header"
+
