@@ -1,6 +1,11 @@
-:root{
-    --body-black:	#36454F;
+:root {
+    --body-black: #151922;
+    --text-light: #F5EFE7;
 }
-.body--dark{ 
+
+.body--dark {
     background-color: var(--body-black);
+    color: var(--text-light);
 }
+
+@import "../../components/Header/header"

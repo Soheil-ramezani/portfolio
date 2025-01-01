@@ -1,5 +1,9 @@
+<script setup>
+import HeaderView from "@/components/Header/Header.vue"
+</script>
+
 <template>
-  <h1 class="text-cyan-600" >hello!</h1>
+ <HeaderView/>
 </template>
 
 <script>
