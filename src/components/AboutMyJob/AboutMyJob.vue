@@ -1,11 +1,11 @@
 <template>
   <div
-    class="AboutMyJob mt-32 w-[100%] h-[400px] flex flex-row-reverse justify-center align-items-center"
+    class="AboutMyJob   h-[400px] flex flex-row-reverse justify-around align-items-center"
   >
     <div class="MyJob-title flex flex-col text-center justify-center align-items-center">
-      <h1 class="MyJob__h1 font-nastaligh">جادوی توسعه در دست‌های من</h1>
+      <h3 class="MyJob__h3"> سفری به دنیای</h3>
       <br />
-      <h3 class="MyJob__h3">Front-End Development سفری به دنیای</h3>
+      <h1 class="MyJob__h1 pacifico-regular">Front-End Development</h1>
     </div>
     <!--  -->
     <hr class="MyJob__hr m-5" />
@@ -20,10 +20,9 @@
         تعامل با آن است، توسط برنامه نویس فرانت‌اند طراحی می‌شود. هدف این است که
         کاربر بتواند به راحتی با وب‌سایت کار کند و به اصطلاح تجربه کاربری خوبی
         رقم بخورد
-        <br />
-        :وظایف اصلی توسعه دهنده فرانت شامل موارد زیر است
       </p>
       <br />
+      <h6 class="MyJob-description__h6  text-end ">:وظایف اصلی توسعه دهنده فرانت شامل موارد زیر است</h6>
       <h6 class="MyJob-description__h6 dir--rtl text-start mt-4">1.طراحی و پیاده‌سازی رابط کاربری</h6>
       <p class="MyJob-description__p dir--rtl text-start">
         توسعه‌دهنده فرانت‌اند صفحات وب را با طراحی‌های جذاب و کاربرپسند ایجاد

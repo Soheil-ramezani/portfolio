@@ -1,6 +1,6 @@
 :root {
-  --body-black: #151922;
-  --text-light: #F5EFE7;
+  --primary-black: #213555;
+  --primary-light: #F5EFE7;
 }
 
 body::-webkit-scrollbar {
@@ -8,19 +8,35 @@ body::-webkit-scrollbar {
 }
 
 .body--dark {
-  background-color: var(--body-black);
-  color: var(--text-light);
+  background-color: var(--primary-black);
+  color: var(--primary-light);
 }
 
 .dir--rtl {
   direction: rtl;
 }
 
+@font-face {
+  font-family: "Nastaligh";
+  src: url("../../assets/Fonts/IranNastaliq/IranNastaliq/IranNastaliq.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+.Nastaligh {
+  font-family: "Nastaligh", sans-serif;
+}
+
+.pacifico-regular {
+  font-family: "Pacifico", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 header {
   width: 100%;
   position: fixed;
-  background-color: var(--text-light);
-  color: var(--body-black);
+  background-color: var(--primary-light);
+  color: var(--primary-black);
 }
 
 .AboutMe {
@@ -35,18 +51,25 @@ header {
   width: 30%;
   direction: rtl;
 }
+.AboutMyJob {
+  margin: 128px 40px;
+  border-radius: 20px;
+  padding: 5% 0;
+  background-color: var(--primary-light);
+  color: var(--primary-black);
+}
 .AboutMyJob .MyJob__h1 {
-  direction: rtl;
-  font-size: 40px;
+  font-size: 30px;
 }
 .AboutMyJob .MyJob__h3 {
   font-size: 20px;
+  font-family: "Gulzar", serif;
 }
 .AboutMyJob .MyJob__hr {
   width: 2px;
   height: 90%;
   border-radius: 20px;
-  background-color: var(--text-light);
+  background-color: var(--primary-black);
 }
 .AboutMyJob .MyJob-description {
   width: 40%;
@@ -54,4 +77,8 @@ header {
 }
 .AboutMyJob .MyJob-description::-webkit-scrollbar {
   display: none;
+}
+.AboutMyJob .MyJob-description__p {
+  margin-top: 10px;
+  line-height: 25px;
 }
