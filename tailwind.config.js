@@ -6,7 +6,11 @@ export default {
     "./src/**/**/*.{js,vue}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        nastaligh: ['Nastaligh', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }

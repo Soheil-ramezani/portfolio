@@ -3,6 +3,19 @@
   --text-light: #F5EFE7;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.body--dark {
+  background-color: var(--body-black);
+  color: var(--text-light);
+}
+
+.dir--rtl {
+  direction: rtl;
+}
+
 header {
   width: 100%;
   position: fixed;
@@ -22,7 +35,23 @@ header {
   width: 30%;
   direction: rtl;
 }
-.body--dark {
-  background-color: var(--body-black);
-  color: var(--text-light);
+.AboutMyJob .MyJob__h1 {
+  direction: rtl;
+  font-size: 40px;
+}
+.AboutMyJob .MyJob__h3 {
+  font-size: 20px;
+}
+.AboutMyJob .MyJob__hr {
+  width: 2px;
+  height: 90%;
+  border-radius: 20px;
+  background-color: var(--text-light);
+}
+.AboutMyJob .MyJob-description {
+  width: 40%;
+  overflow-y: scroll;
+}
+.AboutMyJob .MyJob-description::-webkit-scrollbar {
+  display: none;
 }

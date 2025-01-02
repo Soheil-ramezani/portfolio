@@ -1,0 +1,25 @@
+.AboutMyJob{
+    .MyJob__h1{
+        direction: rtl;
+        font-size: 40px;
+    }
+    .MyJob__h3{
+        font-size: 20px;
+    }
+   
+    .MyJob__hr{
+        width: 2px;
+        height: 90%;
+        border-radius: 20px;
+        background-color: var(--text-light);
+    }
+
+    .MyJob-description{
+        width: 40%;
+        
+        overflow-y: scroll;
+        &::-webkit-scrollbar{
+         display: none;   
+        }
+    }
+}
