@@ -82,3 +82,39 @@ header {
   margin-top: 10px;
   line-height: 25px;
 }
+
+.MySkills .SkillsTitle__h1 {
+  font-size: 30px;
+  color: var(--primary-light);
+}
+.MySkills .SkillsTitle__hr {
+  width: 80%;
+  height: 3px;
+  background-color: var(--primary-light);
+  border: none;
+  border-radius: 20px;
+}
+.MySkills .skills-LogoCarousel .slider {
+  margin-top: 70px;
+  background-color: whitesmoke;
+  padding: 8em 2em;
+}
+.MySkills .skills-LogoCarousel .slider .slide-track {
+  width: 100%;
+  display: flex;
+  gap: 3em;
+  overflow: hidden;
+}
+.MySkills .skills-LogoCarousel .slider .slide-track .slide img {
+  width: 100px;
+  height: 100px;
+  animation: scroll 60s linear infinite;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translatex(-1000%);
+  }
+}

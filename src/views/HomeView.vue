@@ -2,6 +2,7 @@
 import HeaderView from "@/components/Header/Header.vue"
 import AboutMe from "@/components/AboutMe/AboutMe.vue"
 import AboutMyJob from "@/components/AboutMyJob/AboutMyJob.vue"
+import MySkills from "@/components/MySkills/MySkills.vue"
 
 </script>
 
@@ -10,6 +11,7 @@ import AboutMyJob from "@/components/AboutMyJob/AboutMyJob.vue"
  <main class="container  pt-24 flex flex-col  justify-center">
     <AboutMe/>
     <AboutMyJob/>
+    <MySkills/>
  </main>
 </template>
 
