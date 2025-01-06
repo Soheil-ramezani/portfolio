@@ -94,3 +94,32 @@ header {
   border: none;
   border-radius: 20px;
 }
+.MySkills .skill-List .skill-List-item .item-Logo {
+  width: 200px;
+  height: auto;
+  border: 2px solid var(--primary-light);
+  border-radius: 50% 50% 50% 50%/50% 50% 50% 50%;
+  position: absolute;
+  right: 21%;
+}
+.MySkills .skill-List .skill-List-item .item-Logo .item-Logo__img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50% 50% 50% 50%/50% 50% 50% 50%;
+}
+.MySkills .skill-List .skill-List-item .item-text {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 200px;
+  background-color: var(--primary-light);
+  color: var(--primary-black);
+  border-radius: 100px 50px 50px 100px/68px 25px 25px 68px;
+}
+.MySkills .skill-List .skill-List-item .item-text .item-text__p {
+  max-width: 70%;
+  height: 160px;
+  overflow-y: scroll;
+}
+.MySkills .skill-List .skill-List-item .item-text .item-text__p::-webkit-scrollbar {
+  display: none;
+}
