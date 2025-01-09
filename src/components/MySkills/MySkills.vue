@@ -29,7 +29,7 @@
       <div class="modal-content flex flex-col justify-center align-middle">
         <span class="close text-end" @click="CloseModal()">&times;</span>
         <img ref="modal__img" class="modal__img self-center mb-4" src="" alt="" />
-        <h1 ref="modal__h1" class="modal__h1 text-start dir--rtl"></h1>
+        <h1 ref="modal__h1" class="modal__h1 mb-3 text-start dir--rtl"></h1>
         <p ref="modal__p" class="modal__p dir--rtl"></p>
       </div>
     </div>

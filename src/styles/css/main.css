@@ -101,24 +101,21 @@ header {
 }
 .MySkills .skill-modal {
   display: none;
-  /* Hidden by default */
   position: fixed;
-  /* Stay in place */
   z-index: 1;
-  /* Sit on top */
   left: 0;
   top: 0;
   width: 100%;
-  /* Full width */
   height: 100%;
-  /* Full height */
   overflow: auto;
-  /* Enable scroll if needed */
   background-color: rgb(0, 0, 0);
   /* Fallback color */
   background-color: rgba(0, 0, 0, 0.4);
   /* Black w/ opacity */
   /* Modal Content/Box */
+}
+.MySkills .skill-modal::-webkit-scrollbar {
+  display: none;
 }
 .MySkills .skill-modal .modal-content {
   background-color: var(--primary-light);
@@ -127,13 +124,14 @@ header {
   padding: 20px 30px;
   border: 1px solid #888;
   width: 80%;
-  /* Could be more or less, depending on screen size */
+  border-radius: 20px;
   /* The Close Button */
 }
 .MySkills .skill-modal .modal-content .modal__h1 {
   font-size: 2rem;
 }
-.MySkills .skill-modal .modal-content .modal__p, .MySkills .skill-modal .modal-content .modal__h1 {
+.MySkills .skill-modal .modal-content .modal__p,
+.MySkills .skill-modal .modal-content .modal__h1 {
   color: var(--primary-black);
 }
 .MySkills .skill-modal .modal-content .modal__img {
