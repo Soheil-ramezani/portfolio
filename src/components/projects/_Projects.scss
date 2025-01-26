@@ -9,20 +9,97 @@
     .projects-list {
 
         .project-list-item {
-            border-radius:50px 20px 20px 20px / 50px 20px 20px 20px ;
-            .item-title{
-                h1{
+            border-radius: 50px 20px 20px 20px / 50px 20px 20px 20px;
+
+            .item-title {
+                h1 {
                     font-size: 2rem;
                 }
             }
-            .item__img  {
-               img{
-                width:400px;
-                height: 240px;
-                border-radius:30px 0 20px 0 / 30px 0 20px 0 ;
-               
-               }
+
+            .item__img {
+                img {
+                    width: 400px;
+                    height: 240px;
+                    border-radius: 30px 0 20px 0 / 30px 0 20px 0;
+
+                }
             }
         }
+    }
+
+    // Project Modal
+
+    .Project-modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0, 0, 0);
+        /* Fallback color */
+        background-color: rgba(0, 0, 0, 0.4);
+
+        /* Black w/ opacity */
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+        /* Modal Content/Box */
+        .modal-content {
+            background-color: var(--primary-light);
+            margin: 15% auto;
+            /* 15% from the top and centered */
+            padding: 20px 30px;
+            border: 1px solid #888;
+            width: 60%;
+            border-radius: 20px;
+
+            .modal__h1 {
+                font-size: 2rem;
+            }
+
+            .modal__p,
+            .modal__h1,
+            .modal__btn_a,
+            h3 {
+                color: var(--primary-black);
+            }
+
+            .modal__img {
+                width: 60%;
+                height: auto;
+                border-radius: 20px;
+            }
+            .maodal__btn{
+                margin-top: 20px;
+
+            }
+            /* The Close Button */
+            .close {
+                color: #aaa;
+                float: right;
+                font-size: 28px;
+                font-weight: bold;
+            }
+
+            .close:hover,
+            .close:focus {
+                color: black;
+                text-decoration: none;
+                cursor: pointer;
+            }
+
+
+
+
+
+        }
+
+
+
     }
 }
