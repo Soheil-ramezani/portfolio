@@ -3,6 +3,7 @@ import HeaderView from "@/components/Header/Header.vue"
 import AboutMe from "@/components/AboutMe/AboutMe.vue"
 import AboutMyJob from "@/components/AboutMyJob/AboutMyJob.vue"
 import MySkills from "@/components/MySkills/MySkills.vue"
+import MyProjects from "@/components/projects/Projects.vue"
 
 </script>
 
@@ -12,6 +13,7 @@ import MySkills from "@/components/MySkills/MySkills.vue"
     <AboutMe/>
     <AboutMyJob/>
     <MySkills/>
+    <MyProjects/>
  </main>
 </template>
 
