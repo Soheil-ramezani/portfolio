@@ -1,6 +1,6 @@
 <template>
   <Footer class="footer pt-3 pb-3 flex flex-row-reverse justify-around">
-    <div class="contactMe">
+    <div class="contactMe" id="contactMe" >
       <ul class="contactMe__ul flex flex-row justify-center items-end">
         <!--LinkedIn -->
         <li class="contactMe__li m-2">

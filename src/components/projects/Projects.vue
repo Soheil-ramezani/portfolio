@@ -1,5 +1,5 @@
 <template>
-  <div class="Projects mt-10  flex flex-col justify-center items-center">
+  <div id="Projects" class="Projects mt-10  flex flex-col justify-center items-center">
     <div class="Projects-title mb-10 self-center">
         <h1 class="Projects-title__h1">آثار من: سفرهای خلاقانه</h1>
         

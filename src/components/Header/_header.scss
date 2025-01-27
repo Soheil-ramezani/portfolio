@@ -1,7 +1,12 @@
-header {
+.header {
     width: 100%;
     position: fixed;
     background-color: var(--primary-light);
     color: var(--primary-black);
+    .headerTitle{
+        &__h1{
+            font-size: 1.5rem;
+        }
+    }
 
 }
