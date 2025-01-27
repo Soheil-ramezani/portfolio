@@ -4,6 +4,7 @@ import AboutMe from "@/components/AboutMe/AboutMe.vue"
 import AboutMyJob from "@/components/AboutMyJob/AboutMyJob.vue"
 import MySkills from "@/components/MySkills/MySkills.vue"
 import MyProjects from "@/components/projects/Projects.vue"
+import FooterView from "@/components/footer/foooter.vue"
 
 </script>
 
@@ -15,6 +16,7 @@ import MyProjects from "@/components/projects/Projects.vue"
     <MySkills/>
     <MyProjects/>
  </main>
+ <FooterView/>
 </template>
 
 <script>

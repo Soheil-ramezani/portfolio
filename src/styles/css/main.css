@@ -230,3 +230,11 @@ header {
   text-decoration: none;
   cursor: pointer;
 }
+
+.footer {
+  color: var(--primary-black);
+  background-color: var(--primary-light);
+}
+.footer .footerTitle .footerTitle__h1 {
+  font-size: 1.5rem;
+}

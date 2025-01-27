@@ -5,7 +5,7 @@
         
     </div>
     <!-- Projects List -->
-    <div class="projects-list mb-60">
+    <div class="projects-list mb-10">
         <div class="project-list-item flex flex-col items-center bg-gray-700 pt-5 pl-3" v-for="project in MyProjects" :key="project.id" >
             <div class="item__img w-[90%] ">
                 <img :src="project.img" :alt="project.name">
