@@ -8,9 +8,22 @@ body::-webkit-scrollbar {
 .body--dark {
     background-color: var(--primary-black);
     color: var(--primary-light);
+    
 }
 .dir--rtl{
     direction: rtl
+}
+@media (max-width:480px) {
+    
+}
+@media (max-width:768px) {
+    
+}
+@media (max-width:1279px) {
+    
+}
+@media (min-width:1280px) {
+    
 }
 @import "./Fonts";
 @import "../../components/Header/header";
