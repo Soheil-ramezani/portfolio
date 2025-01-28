@@ -1,18 +1,39 @@
-.AboutMe{
+.AboutMe {
     width: 100%;
-    .AboutMePhoto{
-       img{
-        width: 500px;
-        height: 500px; 
-        border-radius: 20px;
-    } 
-    }
-    .AboutMeText{
-        width: 30%;
-        direction: rtl;
-        &__p{
-            
+
+    .leftSide {
+        .AboutMePhoto {
+            img {
+                width: 500px;
+                height: 500px;
+                border-radius: 20px;
+            }
         }
     }
-    
+
+    .rightSide {
+        .AboutMeText {
+            width: 30%;
+            direction: rtl;
+
+            &__h1 {
+                font-size: 4rem;
+            }
+            .AboutMeText__p{
+                font-size: 1.2rem;
+            }
+        }
+        .DownloadResume{
+            margin-top: 20px;
+            .DownloadResume__btn{
+                background-color: var(--primary-light);
+                color: var(--primary-black);
+                border-radius: 5px;
+            }
+        }
+
+
+    }
+
+
 }

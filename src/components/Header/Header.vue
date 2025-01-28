@@ -9,19 +9,19 @@
       <a
         href="#AboutMe"
         @click="scrollToSection($event, 'AboutMe')"
-        class="mt-1 mr-4 ml-4"
+        class="mt-1 mr-4 ml-4 lateef-regular"
         >درباره من</a
       >
       <a
         href="#Projects"
         @click="scrollToSection($event, 'Projects')"
-        class="mt-1 mr-4 ml-4"
+        class="mt-1 mr-4 ml-4 lateef-regular"
         >پروژه ها</a
       >
       <a
         href="#contactMe"
         @click="scrollToSection($event, 'contactMe')"
-        class="mt-1 mr-4 ml-4"
+        class="mt-1 mr-4 ml-4 lateef-regular"
         >ارتباط با من</a
       >
     </div>

@@ -10,7 +10,7 @@
     <!--  -->
     <hr class="MyJob__hr m-5" />
     <!--  -->
-    <div class="MyJob-description text-end  mr-5">
+    <div class="MyJob-description lateef-medium text-end  mr-5">
       <p class="MyJob-description__p text-wrap">
         برنامه نویس فرانت‌اند که به عنوان برنامه نویس سمت کلاینت نیز شناخته
         می‌شود، از زبان‌های کدنویسی و جاوا اسکریپت برای طراحی و ساخت المان‌ها و
@@ -29,7 +29,7 @@
         می‌کند تا تجربه کاربری بهتری ارائه دهد
       </p>
       <h6 class="MyJob-description__h6 dir--rtl text-start mt-4">
-        2.طراحی ظاهر صفحات وب‌سایت و تعامل پذیر کردنشان با استفاده از زبان‌های
+        2.طراحی ظاهر صفحات وبسایت و تعامل پذیر کردنشان با استفاده از زبان‌های
         برنامه نویسی
       </h6>
       <p class="MyJob-description__p dir--rtl text-start">

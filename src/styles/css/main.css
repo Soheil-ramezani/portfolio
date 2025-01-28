@@ -22,10 +22,6 @@ body::-webkit-scrollbar {
   font-weight: normal;
   font-style: normal;
 }
-.Nastaligh {
-  font-family: "Nastaligh", sans-serif;
-}
-
 .niconne-regular {
   font-family: "Niconne", serif;
   font-weight: 400;
@@ -35,6 +31,43 @@ body::-webkit-scrollbar {
 .pacifico-regular {
   font-family: "Pacifico", serif;
   font-weight: 400;
+  font-style: normal;
+}
+
+.playwrite-vn {
+  font-family: "Playwrite VN", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.amiri-regular-italic {
+  font-family: "Amiri", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lateef-bold {
+  font-family: "Lateef", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lateef-light {
+  font-family: "Lateef", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lateef-regular {
+  font-family: "Lateef", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lateef-medium {
+  font-family: "Lateef", serif;
+  font-weight: 500;
   font-style: normal;
 }
 
@@ -51,15 +84,30 @@ body::-webkit-scrollbar {
 .AboutMe {
   width: 100%;
 }
-.AboutMe .AboutMePhoto img {
+.AboutMe .leftSide .AboutMePhoto img {
   width: 500px;
   height: 500px;
   border-radius: 20px;
 }
-.AboutMe .AboutMeText {
+.AboutMe .rightSide .AboutMeText {
   width: 30%;
   direction: rtl;
 }
+.AboutMe .rightSide .AboutMeText__h1 {
+  font-size: 4rem;
+}
+.AboutMe .rightSide .AboutMeText .AboutMeText__p {
+  font-size: 1.2rem;
+}
+.AboutMe .rightSide .DownloadResume {
+  margin-top: 20px;
+}
+.AboutMe .rightSide .DownloadResume .DownloadResume__btn {
+  background-color: var(--primary-light);
+  color: var(--primary-black);
+  border-radius: 5px;
+}
+
 .AboutMyJob {
   margin: 128px 40px;
   border-radius: 20px;
