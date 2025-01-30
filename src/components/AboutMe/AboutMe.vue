@@ -3,22 +3,22 @@
     <!-- AboutMe -->
     <div
     id="AboutMe"
-      class="AboutMyJob h-[400px] flex flex-row-reverse justify-around align-items-center"
+      class="AboutMyJob h-[400px] flex  justify-around align-items-center"
     >
       <div
-        class="MyJob-title flex flex-col text-center justify-center align-items-center"
+        class="MyJob-title w-fit flex flex-col text-center justify-center align-items-center"
       >
         <h3 class="MyJob__h3">درباره سفرمن به دنیای</h3>
         <br />
         <h1 class="MyJob__h1 pacifico-regular">Front-End Development</h1>
       </div>
       <!--  -->
-      <hr class="MyJob__hr m-5" />
+      <hr class="MyJob__hr m-3" />
       <!--  -->
-      <div class="MyJob-description lateef-medium text-end mr-5">
-        <p class="MyJob-description__p text-wrap">!سلام</p>
-        <p class="MyJob-description__p text-wrap dir__rtl">
-          من سهیل رمضانی هستم، یک توسعه‌دهنده فرانت‌اند
+      <div class="MyJob-description lateef-medium text-end w-4/12">
+        <p ref="MyJob_description__p1" class="MyJob-description__p text-wrap">!سلام</p>
+        <p ref="MyJob_description__p2" class="MyJob-description__p text-wrap dir__rtl">
+          من سهیل رمضانی هستم،  توسعه‌دهنده فرانت‌اند
           <br />
           در مدتی که مشغول آموزش دیدن بودم، توانستم مهارت‌های فنی خود رادر حوزه های 
           <bdi>JavaScript و Vue.js</bdi>
@@ -39,7 +39,7 @@
     </div>
     <!-- AboutMyJob -->
     <div
-      class="AboutMyJob h-[400px] flex flex-row-reverse justify-around align-items-center"
+      class="AboutMyJob h-[400px] flex  "
     >
       <div
         class="MyJob-title flex flex-col text-center justify-center align-items-center"
@@ -49,9 +49,9 @@
         <h1 class="MyJob__h1 pacifico-regular">Front-End Development</h1>
       </div>
       <!--  -->
-      <hr class="MyJob__hr m-5" />
+      <hr class="MyJob__hr m-3" />
       <!--  -->
-      <div class="MyJob-description lateef-medium text-end mr-5">
+      <div class="MyJob-description lateef-medium text-end ">
         <p class="MyJob-description__p text-wrap">
           برنامه نویس فرانت‌اند که به عنوان برنامه نویس سمت کلاینت نیز شناخته
           می‌شود، از زبان‌های کدنویسی و جاوا اسکریپت برای طراحی و ساخت المان‌ها

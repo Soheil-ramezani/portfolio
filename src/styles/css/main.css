@@ -218,23 +218,48 @@ main {
   font-family: "Gulzar", serif;
 }
 .AboutMyJob .MyJob__hr {
-  width: 2px;
-  height: 90%;
   border-radius: 20px;
   background-color: var(--primary-black);
 }
 .AboutMyJob .MyJob-description {
-  width: 40%;
   overflow-y: scroll;
 }
 .AboutMyJob .MyJob-description::-webkit-scrollbar {
   display: none;
 }
 .AboutMyJob .MyJob-description__p {
-  margin-top: 10px;
-  line-height: 25px;
+  margin-top: 5px;
+  line-height: 23px;
 }
 
+@media (max-width: 768px) {
+  .AboutMyJob {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .AboutMyJob .MyJob__hr {
+    height: 2px;
+    width: 80%;
+  }
+  .AboutMyJob .MyJob-description {
+    width: 90%;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
+@media (min-width: 768px) {
+  .AboutMyJob {
+    flex-direction: row-reverse;
+  }
+  .AboutMyJob .MyJob-description {
+    width: 50%;
+  }
+  .AboutMyJob .MyJob__hr {
+    width: 2px;
+    height: 90%;
+  }
+}
 .MySkills .SkillsTitle__h1 {
   font-size: 30px;
   color: var(--primary-light);
