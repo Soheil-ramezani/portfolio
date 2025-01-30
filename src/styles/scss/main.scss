@@ -5,6 +5,9 @@
 body::-webkit-scrollbar {
     display: none;
 }
+main{
+    margin: 0 auto;
+}
 .body--dark {
     background-color: var(--primary-black);
     color: var(--primary-light);

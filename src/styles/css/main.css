@@ -7,6 +7,10 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+main {
+  margin: 0 auto;
+}
+
 .body--dark {
   background-color: var(--primary-black);
   color: var(--primary-light);
@@ -93,6 +97,7 @@ body::-webkit-scrollbar {
     /* Position the close button (top right corner) */
   }
   .header .HeaderMenu .overlay {
+    z-index: 10;
     /* Height & width depends on how you want to reveal the overlay (see JS below) */
     height: 100%;
     width: 0;
@@ -149,29 +154,55 @@ body::-webkit-scrollbar {
   width: 100%;
 }
 .AboutMe .leftSide .AboutMePhoto img {
-  width: 500px;
-  height: 500px;
   border-radius: 20px;
 }
 .AboutMe .rightSide .AboutMeText {
-  width: 30%;
   direction: rtl;
 }
 .AboutMe .rightSide .AboutMeText__h1 {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 .AboutMe .rightSide .AboutMeText .AboutMeText__p {
   font-size: 1.2rem;
 }
-.AboutMe .rightSide .DownloadResume {
+
+.DownloadResume {
   margin-top: 20px;
 }
-.AboutMe .rightSide .DownloadResume .DownloadResume__btn {
+.DownloadResume .DownloadResume__btn {
   background-color: var(--primary-light);
   color: var(--primary-black);
   border-radius: 5px;
 }
 
+@media (min-width: 769px) {
+  .AboutMe {
+    flex-direction: row-reverse;
+  }
+  .AboutMe .leftSide .AboutMePhoto img {
+    width: 500px;
+    height: 500px;
+  }
+  .AboutMe .rightSide {
+    align-items: end;
+    padding-right: 2.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .AboutMe {
+    flex-direction: column;
+  }
+  .AboutMe .leftSide .AboutMePhoto img {
+    width: 300px;
+    height: 300px;
+  }
+  .AboutMe .rightSide {
+    align-items: center;
+  }
+  .AboutMe .rightSide .AboutMeText {
+    position: relative;
+  }
+}
 .AboutMyJob {
   margin: 128px 40px;
   border-radius: 20px;

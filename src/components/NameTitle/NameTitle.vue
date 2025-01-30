@@ -1,18 +1,18 @@
 <template>
-  <div class="AboutMe flex flex-row-reverse align-middle justify-center">
+  <div class="AboutMe w-[100%] flex  align-middle justify-center">
     <!-- LeftSide -->
-    <div class="leftSide w-[40%]">
+    <div class="leftSide flex items-center justify-center">
       <!-- Photo -->
-    <div class="AboutMePhoto">
+    <div class="AboutMePhoto flex items-center">
       <img src="../../assets/images/resume.png" alt="" />
     </div>
     </div>
     <!-- rightSide -->
-    <div class="rightSide w-[40%]  flex flex-col items-end pr-[5%] justify-center ">
+    <div class="rightSide  flex flex-col   justify-center ">
       <!-- AboutMe & -->
-     <div class="AboutMeText w-[100%] flex flex-col  ">
-      <h1 class="AboutMeText__h1 pr-[10%]  mb-10  text-nowrap amiri-regular-italic " >سهیل رمضانی</h1>
-      <p class="AboutMeText__p  mr-[5%] lateef-regular text-nowrap ">
+     <div class="AboutMeText flex flex-col z-[-1]  ">
+      <h1 class="AboutMeText__h1  text-nowrap mb-10 pr-5   amiri-regular-italic " >سهیل رمضانی</h1>
+      <p class="AboutMeText__p  lateef-regular text-nowrap  ">
       برنامه نویس فرانت اند
       <span class="playwrite-vn">(Front End-developer)</span>  
       </p>

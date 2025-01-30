@@ -2,6 +2,7 @@
   <div>
     <!-- AboutMe -->
     <div
+    id="AboutMe"
       class="AboutMyJob h-[400px] flex flex-row-reverse justify-around align-items-center"
     >
       <div
@@ -43,7 +44,7 @@
       <div
         class="MyJob-title flex flex-col text-center justify-center align-items-center"
       >
-        <h3 class="MyJob__h3">سفری به دنیای</h3>
+        <h3 class="MyJob__h3">دنیای</h3>
         <br />
         <h1 class="MyJob__h1 pacifico-regular">Front-End Development</h1>
       </div>
