@@ -7,9 +7,9 @@ export default {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        nastaligh: ['Nastaligh', 'sans-serif'],
-      },
+      gridTemplateColumns:{
+        "skills-List-columns":'repeat(auto-fit,minmax(200px,1fr))'
+      }
     },
   },
   plugins: [],

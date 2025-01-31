@@ -39,7 +39,7 @@
     </div>
     <!-- AboutMyJob -->
     <div
-      class="AboutMyJob h-[400px] flex  "
+      class="AboutMyJob h-[400px] flex"
     >
       <div
         class="MyJob-title flex flex-col text-center justify-center align-items-center"

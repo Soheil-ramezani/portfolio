@@ -7,7 +7,7 @@
       <hr class="SkillsTitle__hr mb-5" />
     </div>
     <!-- skills list -->
-    <div class="skill-List grid grid-cols-4 gap-4 w-[90%]">
+    <div class="skill-List grid grid-cols-skills-List-columns gap-x-24 w-[90%]">
       <div
         class="skill-List-item flex justify-center align-middle mb-5"
         v-for="skill in Skills"
