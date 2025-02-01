@@ -2,13 +2,13 @@
   <div>
     <!-- AboutMe -->
     <div
-    id="AboutMe"
-      class="AboutMyJob h-[400px] flex  justify-around align-items-center"
+      id="AboutMe"
+      class="AboutMyJob h-[400px] flex justify-around align-items-center"
     >
       <div
         class="MyJob-title w-fit flex flex-col text-center justify-center align-items-center"
       >
-        <h3 class="MyJob__h3">درباره سفرمن به دنیای</h3>
+        <h3 class="MyJob__h3">سفرمن به دنیای</h3>
         <br />
         <h1 class="MyJob__h1 pacifico-regular">Front-End Development</h1>
       </div>
@@ -16,13 +16,21 @@
       <hr class="MyJob__hr m-3" />
       <!--  -->
       <div class="MyJob-description lateef-medium text-end w-4/12">
-        <p ref="MyJob_description__p1" class="MyJob-description__p text-wrap">!سلام</p>
-        <p ref="MyJob_description__p2" class="MyJob-description__p text-wrap dir__rtl">
-          من سهیل رمضانی هستم،  توسعه‌دهنده فرانت‌اند
+        <p ref="MyJob_description__p1" class="MyJob-description__p text-wrap">
+          !سلام
+        </p>
+        <p
+          ref="MyJob_description__p2"
+          class="MyJob-description__p text-wrap dir__rtl"
+        >
+          من سهیل رمضانی هستم، توسعه‌دهنده فرانت‌اند
           <br />
-          در مدتی که مشغول آموزش دیدن بودم، توانستم مهارت‌های فنی خود رادر حوزه های 
-          <bdi>JavaScript و Vue.js</bdi>
-          .به درجه ای مطلوب برسانم و اکنون آماده‌ام که پروژه‌های جالب و چالش‌ برانگیز را به عهده بگیرم            
+          در مدتی که مشغول آموزش دیدن بودم، توانستم مهارت‌های فنی خود رادر زبان
+          <bdi>JavaScript </bdi> وفریمورک <bdi> Vue.js</bdi>
+          و در حیطه طراحی نمای سایت با استفاده از فریمورک های
+          <bdi>Bootstrap , TailWind</bdi>
+        به درجه ای مطلوب برسانم و اکنون آماده‌ام که پروژه‌های جالب و چالش‌
+          برانگیز را به عهده بگیرم
           <br />
           علاقه من به توسعه وب به خاطر وسعت این حوزه و تأثیر عمیق آن بر زندگی
           روزمره مردم است. من به جزئیات فکر می‌کنم و معتقدم که طراحی یک محصول
@@ -32,15 +40,14 @@
           افراد لذت می‌برم و معتقدم که همکاری مؤثر و برقراری ارتباط سازنده با
           تیم‌ها می‌تواند به نتایج بهتری منجر شود. اگر به دنبال یک
           توسعه‌دهنده‌ای هستید که نه تنها بر فن‌آوری تسلط دارد بلکه به تجربه
-          کاربر نیز اهمیت می‌دهد، خوشحال می‌شوم که با شما همکاری کنم. لطفاً برای
-          !هرگونه سؤال یا بحث درباره پروژه‌های آینده، با من در تماس باشید
+          .کاربر نیز اهمیت می‌دهد، خوشحال می‌شوم که با شما همکاری کنم 
+         <br> 
+          لطفاً برای هرگونه سؤال یا بحث درباره پروژه‌های آینده، با من در تماس باشید
         </p>
       </div>
     </div>
     <!-- AboutMyJob -->
-    <div
-      class="AboutMyJob h-[400px] flex"
-    >
+    <div class="AboutMyJob h-[400px] flex justify-around align-items-center">
       <div
         class="MyJob-title flex flex-col text-center justify-center align-items-center"
       >
@@ -51,7 +58,7 @@
       <!--  -->
       <hr class="MyJob__hr m-3" />
       <!--  -->
-      <div class="MyJob-description lateef-medium text-end ">
+      <div class="MyJob-description lateef-medium text-end">
         <p class="MyJob-description__p text-wrap">
           برنامه نویس فرانت‌اند که به عنوان برنامه نویس سمت کلاینت نیز شناخته
           می‌شود، از زبان‌های کدنویسی و جاوا اسکریپت برای طراحی و ساخت المان‌ها

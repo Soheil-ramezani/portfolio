@@ -1,10 +1,32 @@
-.footer{
+.footer {
     color: var(--primary-black);
     background-color: var(--primary-light);
-    .footerTitle{
-        .footerTitle__h1{
+
+    .footerTitle {
+        .footerTitle__h1 {
             font-size: 1.5rem;
         }
     }
 
+}
+
+@media (max-width:600px) {
+    .footer {
+        .footer-contactMe {
+            display: none;
+            ul {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (min-width:600px) {
+    .footer {
+        .footer-contactMe {
+            ul {
+                display: flex;
+            }
+        }
+    }
 }

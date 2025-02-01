@@ -1,6 +1,6 @@
 :root {
   --primary-black: #213555;
-  --primary-light: #F5EFE7;
+  --primary-light: #f5efe7;
 }
 
 body::-webkit-scrollbar {
@@ -408,4 +408,18 @@ main {
 }
 .footer .footerTitle .footerTitle__h1 {
   font-size: 1.5rem;
+}
+
+@media (max-width: 600px) {
+  .footer .footer-contactMe {
+    display: none;
+  }
+  .footer .footer-contactMe ul {
+    display: none;
+  }
+}
+@media (min-width: 600px) {
+  .footer .footer-contactMe ul {
+    display: flex;
+  }
 }
