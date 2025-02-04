@@ -14,7 +14,7 @@
         :key="skill.alt"
       >
         <img
-          src="../../assets/Logos/"
+          :src="skill.DarkImage"
           :alt="skill.alt"
           class="skill-List-item__img"
           @click="
