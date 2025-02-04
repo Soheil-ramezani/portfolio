@@ -51,8 +51,8 @@ export default {
             "JavaScript که به اختصار JS نیز نامیده می‌شود، یکی از محبوبترین زبان‌های برنامه نویسی است. جاوا اسکریپت زبانی سطح بالا، داینامیک، شی‌گرا و تفسیری است که از شیوه‌های مختلف برنامه نویسی پشتیبانی می‌کند. از این زبان می‌توان برای برنامه نویسی سمت سرور (Server Side)، اپلیکیشن‌های موبایل، بازی و اپلیکیشن‌های دسکتاپ استفاده کرد. بنابراین می‌توان اینگونه برداشت کرد که زبان برنامه نویسی جاوا اسکریپت ، یک زبان همه فن حریف است.",
         },
         {
-          DarkImage: "/src/assets/Logos/vue-js-Dark.png",
-          LightImage:"/src/assets/Logos/vue-js-light.png",
+          DarkImage: "./src/assets/Logos/vue-js-Dark.png",
+          LightImage:"./src/assets/Logos/vue-js-light.png",
           alt: "Vue-Logo",
           title:"Vue",
           description:
