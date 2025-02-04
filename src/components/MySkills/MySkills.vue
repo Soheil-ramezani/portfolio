@@ -57,64 +57,64 @@ export default {
     return {
       Skills: [
         {
-          DarkImage: "https://portfolio-86pt2r9j4-soheil-ramezanis-projects.vercel.app/src/assets/Logos/JavaScript-logo.png",
-          LightImage: "https://portfolio-86pt2r9j4-soheil-ramezanis-projects.vercel.app/src/assets/Logos/JavaScript-logo.png",
+          DarkImage: "https://i.imgur.com/OLMiRkO.png",
+          LightImage: "https://i.imgur.com/OLMiRkO.png",
           alt: "js-Logo",
           title: "JavaScript",
           description:
             "JavaScript که به اختصار JS نیز نامیده می‌شود، یکی از محبوبترین زبان‌های برنامه نویسی است. جاوا اسکریپت زبانی سطح بالا، داینامیک، شی‌گرا و تفسیری است که از شیوه‌های مختلف برنامه نویسی پشتیبانی می‌کند. از این زبان می‌توان برای برنامه نویسی سمت سرور (Server Side)، اپلیکیشن‌های موبایل، بازی و اپلیکیشن‌های دسکتاپ استفاده کرد. بنابراین می‌توان اینگونه برداشت کرد که زبان برنامه نویسی جاوا اسکریپت ، یک زبان همه فن حریف است.",
         },
         {
-          DarkImage: "https://portfolio-86pt2r9j4-soheil-ramezanis-projects.vercel.app/src/assets/Logos/vue-js-Dark.png",
-          LightImage: "https://portfolio-86pt2r9j4-soheil-ramezanis-projects.vercel.app/src/assets/Logos/vue-js-light.png",
+          DarkImage: "https://i.imgur.com/cMwNimI.png",
+          LightImage: "https://i.imgur.com/VJXlw83.png",
           alt: "Vue-Logo",
           title: "Vue",
           description:
             "ویو یک فریم‌ورک متن باز زبان javascript است که از آن برای توسعه رابط کاربری استفاده می­‌شود. Vue.js برای اولین بار در دسامبر سال 2013 توسط Evan You، یکی از کارمندان سابق گوگل، به دنیا معرفی شد. ایوان که در شغل پیشین خود از فریم­ورک Angular js در توسعه برنامه‌­ها استفاده می‌کرد، تصمیم گرفت تا فریم‌ورکی برای استفاده در پروژه‌­های خود خلق کند که به اندازه Angular قدرتمند و در عین حال سبک‌وزن و انعطاف‌پذیر باشد. شما می­‌توانید از Vue.js در ساخت اپلیکیشن­‌های تحت وب تک صفحه‌ای یا حتی وب‌سایت­‌هایی در مقیاس بزرگ با ساختارهای مختلف استفاده کنید. همچنین می‌­توانید کامپوننت‌­هایی ایجاد کرده و در سایر بخش‌های پروژه یا حتی پروژه­‌های دیگر از آن استفاده کنید.",
         },
         {
-          DarkImage: "https://portfolio-86pt2r9j4-soheil-ramezanis-projects.vercel.app/src/assets/Logos/JQuery-dark.jpg",
-          LightImage: "https://portfolio-86pt2r9j4-soheil-ramezanis-projects.vercel.app/src/assets/Logos/JQuery-light.jpg",
+          DarkImage: "https://i.imgur.com/SeZFMaD.jpeg",
+          LightImage: "https://i.imgur.com/bsHmZEp.jpeg",
           alt: "JQuery-Logo",
           title: "jQuery",
           description:
             "jQuery یک کتابخانه سبک وزن برای جاوا اسکریپت است. این یعنی با حجم کد کمتر نسبت به جاوا اسکریپت، بیشترین کار را انجام می‌دهد. شاید کارهایی که در جاوا اسکریپت نیاز به چندین خط کدنویسی دارد، در جی کوئری تنها در یک خط انجام شود!",
         },
         {
-          DarkImage: "https://portfolio-86pt2r9j4-soheil-ramezanis-projects.vercel.app/src/assets/Logos/Bootstrap-dark.jpg",
-          LightImage: "https://portfolio-86pt2r9j4-soheil-ramezanis-projects.vercel.app/src/assets/Logos/Bootstrap-light.jpg",
+          DarkImage: "https://i.imgur.com/21jcTS6.jpeg",
+          LightImage: "https://i.imgur.com/cFtmDuQ.jpeg",
           alt: "Bootstrap-Logo",
           title: "Bootstrap",
           description:
             "Bootstrap مجموعه ای از ابزارهای رایگان برای ایجاد صفحات وب و نرم افزارهای تحت وب است که شامل دستورات CSS و توابع جاوا اسکریپت جهت تولید و نمایش فرم ها، دکمه ها، تب ها، ستون ها و سایر المان های مورد نیاز طراحی وب می باشد.",
         },
         {
-          DarkImage: "https://portfolio-86pt2r9j4-soheil-ramezanis-projects.vercel.app/src/assets/Logos/Tailwind-dark.jpg",
-          LightImage: "https://portfolio-86pt2r9j4-soheil-ramezanis-projects.vercel.app/src/assets/Logos/Tailwind-light.jpg",
+          DarkImage: "https://i.imgur.com/Xg4pvmo.jpeg",
+          LightImage: "https://i.imgur.com/e40JAbD.jpeg",
           alt: "Tailwind-Logo",
           title: "Tailwind",
           description:
             "Tailwind CSS یک “utility-first” فریم‌ورک CSS است که ابزارها و class‌های پر استفاده CSS را در اختیار شما قرار می‌دهد و می‌توانید به آسانی به کمک آن وبسایت یا برنامه‌تان را استایل‌دهی کنید، البته هدف اساسی این فریم‌ورک آن است که نخواهید با استایل‌های CSS سروکله بزنید و ده‌ها بار یک selector را override کنید.",
         },
         {
-          DarkImage: "https://portfolio-86pt2r9j4-soheil-ramezanis-projects.vercel.app/src/assets/Logos/Sass_logo-dark.png",
-          LightImage: "https://portfolio-86pt2r9j4-soheil-ramezanis-projects.vercel.app/src/assets/Logos/Sass_logo-light.png",
+          DarkImage: "https://i.imgur.com/N2IiViT.png",
+          LightImage: "https://i.imgur.com/selOxtY.png",
           alt: "Sass-Logo",
           title: "Sass",
           description:
             "Tailwind CSS یک “utility-first” فریم‌ورک CSS است که ابزارها و class‌های پر استفاده CSS را در اختیار شما قرار می‌دهد و می‌توانید به آسانی به کمک آن وبسایت یا برنامه‌تان را استایل‌دهی کنید، البته هدف اساسی این فریم‌ورک آن است که نخواهید با استایل‌های CSS سروکله بزنید و ده‌ها بار یک selector را override کنید.",
         },
         {
-          DarkImage: "https://portfolio-86pt2r9j4-soheil-ramezanis-projects.vercel.app/src/assets/Logos/Docker-Dark.jpg",
-          LightImage: "https://portfolio-86pt2r9j4-soheil-ramezanis-projects.vercel.app/src/assets/Logos/Docker-Light.jpg",
+          DarkImage: "https://i.imgur.com/FgshA9Y.jpeg",
+          LightImage: "https://i.imgur.com/l0Xcu9X.jpeg",
           alt: "Docker-Logo",
           title: "Docker",
           description:
             "داکر (Docker) یک پلتفرم متن‌­باز، برای مدیریت کانتینرها (Container) است، که سرعت توسعه، تست و اجرای برنامه­‌ها را افزایش می‌­دهد. این پلتفرم، نرم‌­افزار را در واحدهای استانداردی به نام کانتینر بسته‌­بندی می‌­کند؛ کانتینر داکر شامل تمامی کتابخانه‌­ها، ابزارهای سیستمی، ران‌تایم‌­ها و کدهای لازم برای اجرای برنامه است.",
         },
         {
-          DarkImage: "https://portfolio-86pt2r9j4-soheil-ramezanis-projects.vercel.app/src/assets/Logos/git-dark.jpg",
-          LightImage: "https://portfolio-86pt2r9j4-soheil-ramezanis-projects.vercel.app/src/assets/Logos/git-light.jpg",
+          DarkImage: "https://i.imgur.com/89tLyF5.jpeg",
+          LightImage: "https://i.imgur.com/6QcXag0.jpeg",
           alt: "git-Logo",
           title: "git",
           description:
