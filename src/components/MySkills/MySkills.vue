@@ -114,7 +114,7 @@ export default {
     OpenModal(imgSrc,imgAlt,title,description) {
       this.$refs.modal__img.src = imgSrc;
       this.$refs.modal__img.alt = imgAlt;
-      this.$refs.modal__h1.innerHTML = title +"چیست؟";
+      this.$refs.modal__h1.innerHTML = title +" چیست؟";
       this.$refs.modal__p.innerHTML = description;
       this.$refs.skillModal.style.display = "block";
     },
