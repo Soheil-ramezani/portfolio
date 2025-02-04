@@ -41,7 +41,7 @@ name:"MyProjects",
 data(){
   return{
     MyProjects:[
-      {id:1 , name:"Golden Movie" , img:"src/assets/images/GoldenMovie.png" , address:"https://golden-movie-tau.vercel.app/",pages:["LogIn","خانه","توضیحات فیلم"],area:"یک سایت برای دانلود فیلم و سریال است  " , techs:"JavaScript ،Vite ، Vue js ، Sass ، Bootstrap"  }
+      {id:1 , name:"Golden Movie" , img:"/src/assets/images/GoldenMovie.png" , address:"https://golden-movie-tau.vercel.app/",pages:["LogIn","خانه","توضیحات فیلم"],area:"یک سایت برای دانلود فیلم و سریال است  " , techs:"JavaScript ،Vite ، Vue js ، Sass ، Bootstrap"  }
     ]
 
   }
