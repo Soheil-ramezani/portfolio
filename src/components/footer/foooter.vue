@@ -5,7 +5,7 @@
         <!-- GitHub -->
         <li class="contactMe__li m-2">
           <a
-            href="#"
+            href="https://github.com/Soheil-ramezani"
             class="contactMe__a flex items-center justify-end"
             title="گیت هاب"
           >
@@ -26,7 +26,7 @@
         <!--LinkedIn -->
         <li class="contactMe__li m-2">
           <a
-            href="#"
+            href="https://www.linkedin.com/in/soheil-ramezani-9506b7298?utm_source=share&amp;utm_campaign=share_via&amp;utm_content=profile&amp;utm_medium=android_app"
             class="contactMe__a flex items-center justify-end"
             title="ارتباط از طریق لینکدین"
           >
@@ -48,7 +48,7 @@
         <!-- telegram -->
         <li class="contactMe__li m-2">
           <a
-            href="#"
+            href="https://t.me/soheil_pd"
             class="contactMe__a flex items-center justify-end"
             title="ارتباط از طریق تلگرام"
           >
@@ -71,7 +71,7 @@
           <a href="#" class="contactMe__a flex items-center justify-end">
             Email
             <lord-icon
-              src="https://cdn.lordicon.com/ozlkyfxg.json"
+              src="https://mail.google.com/mail/?view=cm&fs=1&to=soheilramezanie@gmail.com"
               trigger="in"
               delay="1000"
               state="in-reveal"

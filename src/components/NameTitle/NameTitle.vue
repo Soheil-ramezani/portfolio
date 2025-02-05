@@ -25,7 +25,7 @@
           <!--LinkedIn -->
           <li class="contactMe__li m-2">
             <a
-              href="https://www.linkedin.com/in/your_username"
+              href="https://www.linkedin.com/in/soheil-ramezani-9506b7298?utm_source=share&amp;utm_campaign=share_via&amp;utm_content=profile&amp;utm_medium=android_app"
               class="contactMe__a flex items-center justify-end"
               title="لینکدین"
               target="_blank"
@@ -47,7 +47,7 @@
           <!-- GitHub -->
           <li class="contactMe__li m-2">
             <a
-              href="https://github.com/john-doe"
+              href="https://github.com/Soheil-ramezani"
               target="_blank"
               class="contactMe__a flex items-center justify-end"
               title="گیت هاب"
@@ -69,7 +69,7 @@
           <!-- telegram -->
           <li class="contactMe__li m-2">
             <a
-              href="https://t.me/your_username"
+              href="https://t.me/soheil_pd"
               class="contactMe__a flex items-center justify-end"
               target="_blank"
               title="تلگرام"
@@ -92,7 +92,7 @@
           <!-- Email -->
           <li class="contactMe__li m-2">
             <a
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=YourEamil"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=soheilramezanie@gmail.com"
               target="_blank"
               class="contactMe__a flex items-center justify-end"
               title="ایمیل"
