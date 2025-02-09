@@ -1,5 +1,5 @@
 <template>
-  <div class="AboutMe w-[100%] flex align-middle justify-center">
+  <div class="AboutMe w-[100%] flex align-middle justify-center" id="contactMe">
     <!-- LeftSide -->
     <div class="leftSide flex items-center justify-center">
       <!-- Photo -->
@@ -20,7 +20,7 @@
         </p>
       </div>
       <!-- contactMe -->
-      <div class="contactMe" id="contactMe">
+      <div class="contactMe">
         <ul class="contactMe__ul flex flex-row justify-center items-end">
           <!--LinkedIn -->
           <li class="contactMe__li m-2">
