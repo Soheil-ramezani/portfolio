@@ -113,7 +113,8 @@
       <!-- DownloadResume -->
       <div class="DownloadResume">
         <button class="DownloadResume__btn text-center p-1 mr-5">
-          دانلود رزومه
+          <a href="./../../assets/resume/MyResume.zip" download="MyResume.zip">دانلود رزومه</a>
+          
         </button>
       </div>
     </div>
